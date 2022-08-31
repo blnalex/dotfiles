@@ -1,0 +1,19 @@
+# Initial Setup 
+# exec ~/set_once.sh
+
+# Config for sway
+#
+# Read `man 5 sway` for a complete reference.
+
+# user config directory
+include $HOME/.config/sway/config.d/*
+
+# only enable this if every app you use is compatible with wayland
+# xwayland disable
+
+ input * {
+    xkb_layout "us,de"
+    xkb_options "grp:win_space_toggle"
+}
+
+
